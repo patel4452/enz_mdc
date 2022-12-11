@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 .container {
+=======
+.main {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section {
+>>>>>>> 1de8cf1ef020f74f2dbc238b6bf391def11fc9bd
     position: relative;
     text-align: center;
     color: white;
@@ -13,7 +22,10 @@
   .ml6 {
     position: relative;
     font-weight: 900;
+<<<<<<< HEAD
     /*font-size: 3.3em;*/
+=======
+>>>>>>> 1de8cf1ef020f74f2dbc238b6bf391def11fc9bd
   }
   
   .ml6 .text-wrapper {
@@ -43,6 +55,7 @@
     bottom: -30px;
   }
   .down-arrow {
+<<<<<<< HEAD
     /*position: absolute;
     top: calc(15vh - 80px);
     left: calc(50% - 14px);
@@ -66,6 +79,12 @@
     transform: rotateZ(45deg);
   }*/
   
+=======
+    animation: jumpInfinite 1.5s infinite;
+    cursor: pointer;
+  }
+  
+>>>>>>> 1de8cf1ef020f74f2dbc238b6bf391def11fc9bd
   @keyframes jumpInfinite {
     0% {
       bottom: -30px;
@@ -76,4 +95,26 @@
     100% {
       bottom: -30px;
     }
+<<<<<<< HEAD
   }
+=======
+  }
+
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: end;
+    height: 100px;
+}
+
+.align-left {
+    align-self: flex-start;
+    display: flex;
+}
+.logo {
+  height: 46px;
+  width: auto;
+}
+>>>>>>> 1de8cf1ef020f74f2dbc238b6bf391def11fc9bd
