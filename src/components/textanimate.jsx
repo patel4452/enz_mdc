@@ -1,26 +1,19 @@
-import React, { useState } from 'react'
-import MovingText from 'react-moving-text'
+import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 
-const AnimationsForChaining = ["swing", "flipSlowDown", "fadeOutToBottom", "jelly"]
-
-const AnimationChain = () => {
-
-  const [ animationIndex, setAnimationIndex ] = useState(0)
-  const [ animationType, setAnimationType ] = useState(AnimationsForChaining[0])
-
-  const handleChainAnimation = () => {
-    setCounter(animationIndex+1)
-    setAnimationType(selectedItems[animationIndex+1])
+class Sectiontext extends Component {
+  state = {  } 
+  render() { 
+    return (
+      <div className="section section-text">
+        <Fade bottom>
+          <h2 className='copy-title title-primary'>LEARN HERE. THERE. EVERYWHERE.</h2>
+          <p className='copy-dark'>Start your future-focused New Zealand education journey with our new ways of learning. Explore our range of flexible study options and choose how you study.</p>
+          <p className='copy-dark'>Enjoy the convenience of a locally delivered course with <span className='underline'>global pathways</span>, or study from anywhere in the worls by <span className='underline'>learning online</span>. Learn about our high-quality education and unbeatable lifestyle when you <span className='underline'>study right here in New Zealand.</span></p>
+        </Fade>
+      </div>
+    );
   }
-
-  return (
-    <MovingText
-      onAnimationEnd={handleChainAnimation}
-      type={animationType}
-      duration="1000ms"
-      timing="linear"
-      iteration={1}>
-      MovingText
-    </MovingText>
-  )
 }
+
+export default Sectiontext; 
