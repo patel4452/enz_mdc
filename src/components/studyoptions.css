@@ -1,0 +1,40 @@
+* {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.copy-text-light {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+.title-regular {
+  font-size: 2.5rem;
+}
+.section-study-option {
+  background-color: #64c2c8;
+  padding: 60px 0;
+  margin: 60px auto;
+}
+.align-center {
+  display: block;
+  text-align: center;
+}
+.img-icon {
+  margin: 0 auto;
+  display: block;
+}
+.next-line {
+  display: block;
+  font-size: 1rem;
+}
