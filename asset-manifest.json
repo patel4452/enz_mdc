@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f64e927.css",
+    "main.js": "/static/js/main.47ec8b1f.js",
+    "static/js/787.6e33d290.chunk.js": "/static/js/787.6e33d290.chunk.js",
+    "static/media/video1.mp4": "/static/media/video1.9c0429708d095664f6f1.mp4",
+    "static/media/hero-banner.jpg": "/static/media/hero-banner.c5fd9486a68d6571805f.jpg",
+    "static/media/parallax-1.jpg": "/static/media/parallax-1.40e00ac5f2d64ee81e5f.jpg",
+    "static/media/video_layer.png": "/static/media/video_layer.cc6fe01c0783c637f0df.png",
+    "static/media/parallax-3.jpg": "/static/media/parallax-3.9b60ffcd1d3aa160a674.jpg",
+    "static/media/learnmore.jpg": "/static/media/learnmore.b91371743c93cfea5c8b.jpg",
+    "static/media/parallax-2.jpg": "/static/media/parallax-2.f6676f25418d979ab32c.jpg",
+    "static/media/institution-6.jpg": "/static/media/institution-6.da24759d8fac67f238c8.jpg",
+    "static/media/institution-4.jpg": "/static/media/institution-4.956692952486aab7b100.jpg",
+    "static/media/institution-5.jpg": "/static/media/institution-5.7374729327e561d9007e.jpg",
+    "static/media/institution-7.jpg": "/static/media/institution-7.7c64edeb4565fa25212a.jpg",
+    "static/media/institution-2.jpg": "/static/media/institution-2.fab5e3805078762755dd.jpg",
+    "static/media/institution-1.jpg": "/static/media/institution-1.ab6488b5f95143eb04ab.jpg",
+    "static/media/institution-8.jpg": "/static/media/institution-8.e439c8c7d4e6d85b245c.jpg",
+    "static/media/institution-3.jpg": "/static/media/institution-3.aac8c38ee09af78d4c3b.jpg",
+    "static/media/slider-2.png": "/static/media/slider-2.237ebe031ce3be45b140.png",
+    "static/media/layer4-1.png": "/static/media/layer4-1.cd30b560b64f758aaf53.png",
+    "static/media/layer4-2.png": "/static/media/layer4-2.ee73e894593a0169b49d.png",
+    "static/media/slider-1.png": "/static/media/slider-1.96c01731b367160070ae.png",
+    "static/media/slider-3.png": "/static/media/slider-3.5eb32714254ee53a86eb.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.6f64e927.css.map": "/static/css/main.6f64e927.css.map",
+    "main.47ec8b1f.js.map": "/static/js/main.47ec8b1f.js.map",
+    "787.6e33d290.chunk.js.map": "/static/js/787.6e33d290.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f64e927.css",
+    "static/js/main.47ec8b1f.js"
+  ]
+}
