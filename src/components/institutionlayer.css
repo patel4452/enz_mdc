@@ -1,0 +1,23 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100%;
+  background-color: blue;
+  position: relative;
+}
+.child span {
+  padding: 10px 0 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20%;
+  background-color: #071937;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}

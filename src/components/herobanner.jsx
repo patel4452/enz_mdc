@@ -9,7 +9,8 @@ import Clientlogo from "../assets/images/clientlogo.png";
 import Clientlogo2 from "../assets/images/clientlogo1.png";
 import Sectiontext from "./textanimate";
 import Studyoptions from "./studyoptions";
-import Parallaxcomponent from "./parallaxcomponent";
+import Parallaxstyletwo from "./parallaxstyletwo";
+import Institutionlayer from "./institutionlayer";
 
 function Herobanner() {
   const ref = useRef(null);
@@ -55,7 +56,8 @@ function Herobanner() {
       </div>
       <Sectiontext />
       <Studyoptions />
-      <Parallaxcomponent />
+      <Parallaxstyletwo />
+      <Institutionlayer />
     </div>
   );
 }
