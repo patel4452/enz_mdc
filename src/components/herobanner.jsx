@@ -11,6 +11,8 @@ import Sectiontext from "./textanimate";
 import Studyoptions from "./studyoptions";
 import Parallaxstyletwo from "./parallaxstyletwo";
 import Institutionlayer from "./institutionlayer";
+import Sectionbreaker from "./sectionbreaker";
+import SmoothScroll from "./Smoothscroll";
 
 function Herobanner() {
   const ref = useRef(null);
@@ -58,6 +60,8 @@ function Herobanner() {
       <Studyoptions />
       <Parallaxstyletwo />
       <Institutionlayer />
+      <Sectionbreaker />
+      <SmoothScroll />
     </div>
   );
 }
