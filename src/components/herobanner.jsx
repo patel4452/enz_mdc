@@ -61,6 +61,7 @@ function Herobanner() {
       <Parallaxstyletwo />
       <Institutionlayer />
       <Sectionbreaker />
+      <SmoothScroll />
     </div>
   );
 }
