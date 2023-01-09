@@ -5,10 +5,11 @@
 }
 
 .container {
-  width: 600%;
+  width: 1600px !important;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
+  min-width: 1600px;
 }
 
 .panel.align-top {
@@ -23,6 +24,7 @@
 }
 .panel.description {
   padding-bottom: 60px;
+  width: 60vw;
 }
 .panel p,
 .panel li {
@@ -56,6 +58,13 @@ body {
   overflow-scrolling: touch;
   font-family: "Signika Negative", sans-serif, Arial;
 }
+.keep-up {
+  margin-top: -5%;
+}
+
+.keep-down {
+  margin-top: 5%;
+}
 
 .panel {
   width: 100%;
@@ -81,5 +90,20 @@ h1,
 h2,
 p,
 li {
-  max-width: 800px;
+  max-width: 1600px;
+}
+
+.pin-spacer {
+  width: 1600px !important;
+  max-width: 1600px;
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 1450px) {
+  .container,
+  .pin-spacer {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
 }

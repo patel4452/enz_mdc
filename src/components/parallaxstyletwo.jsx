@@ -40,7 +40,7 @@ const Parallaxstyletwo = () => {
               <Timeline totalProgress={progress} paused>
                 <Tween
                   from={{ y: "0vh", scale: 1.5 }}
-                  to={{ y: "1vh", scale: 1 }}
+                  to={{ y: "1vh", scale: 1.1 }}
                   duration={1000}
                 >
                   <img
@@ -139,7 +139,7 @@ const Parallaxstyletwo = () => {
               <Timeline totalProgress={progress} paused>
                 <Tween
                   from={{ y: "0vh", scale: 1.5 }}
-                  to={{ y: "1vh", scale: 1 }}
+                  to={{ y: "1vh", scale: 1.1 }}
                   duration={1000}
                 >
                   <img
@@ -238,7 +238,7 @@ const Parallaxstyletwo = () => {
               <Timeline totalProgress={progress} paused>
                 <Tween
                   from={{ y: "0vh", scale: 1.5 }}
-                  to={{ y: "1vh", scale: 1 }}
+                  to={{ y: "1vh", scale: 1.1 }}
                   duration={1000}
                 >
                   <img

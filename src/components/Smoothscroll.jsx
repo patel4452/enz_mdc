@@ -26,7 +26,7 @@ const SmoothScroll = () => {
       scrollTrigger: {
         trigger: panelsContainer.current,
         pin: true,
-        scrub: 1,
+        scrub: 2,
         snap: 1 / (totalPanels - 1),
         // base vertical scrolling on how wide the container is so it feels more natural.
         end: () => "+=" + panelsContainer.current.offsetWidth,
@@ -36,20 +36,29 @@ const SmoothScroll = () => {
 
   return (
     <>
-      <div className="container" ref={panelsContainer}>
-        <section className="panel red" ref={(e) => createPanelsRefs(e, 1)}>
+      <div className="container section-bg" ref={panelsContainer}>
+        <section className="panel" ref={(e) => createPanelsRefs(e, 1)}>
+          <span style={{ width: "360px" }}></span>
+        </section>
+        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 1)}>
           <img src={Slide1} />
         </section>
-        <section className="panel orange" ref={(e) => createPanelsRefs(e, 2)}>
+        <section
+          className="panel keep-down"
+          ref={(e) => createPanelsRefs(e, 2)}
+        >
           <img src={Slide2} />
         </section>
-        <section className="panel purple" ref={(e) => createPanelsRefs(e, 3)}>
+        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 3)}>
           <img src={Slide3} />
         </section>
-        <section className="panel green" ref={(e) => createPanelsRefs(e, 4)}>
+        <section
+          className="panel keep-down"
+          ref={(e) => createPanelsRefs(e, 4)}
+        >
           <img src={Slide1} />
         </section>
-        <section className="panel gray" ref={(e) => createPanelsRefs(e, 5)}>
+        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 5)}>
           <img src={Slide2} />
         </section>
       </div>

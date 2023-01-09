@@ -7,6 +7,8 @@ import Videoone from "../assets/videos/video1.mp4";
 import Bannervideo from "../assets/images/video_layer.png";
 import Clientlogo from "../assets/images/clientlogo.png";
 import Clientlogo2 from "../assets/images/clientlogo1.png";
+import Clientlogo3 from "../assets/images/clientlogo2.png";
+import Twitter from "../assets/images/twitter.png";
 import Sectiontext from "./textanimate";
 import Studyoptions from "./studyoptions";
 import Parallaxstyletwo from "./parallaxstyletwo";
@@ -62,6 +64,44 @@ function Herobanner() {
       <Institutionlayer />
       <Sectionbreaker />
       <SmoothScroll />
+      <footer>
+        <div className="section-footer">
+          <div className="row justify-content-between">
+            <div className="col-4">
+              <img src={Clientlogo3} className="align-left logo-footer" />
+            </div>
+            <div className="col-2">
+              <div className="social-overlay">
+                <h4>Find Us here</h4>
+                <div>
+                  <span className="first-row social-row">
+                    <a href="">
+                      <img src={Twitter} className="logo" />
+                    </a>
+                    <a href="">
+                      <img src={Twitter} className="logo" />
+                    </a>
+                    <a href="">
+                      <img src={Twitter} className="logo" />
+                    </a>
+                  </span>
+                  <span className="second-row social-row">
+                    <a href="">
+                      <img src={Twitter} className="logo" />
+                    </a>
+                    <a href="">
+                      <img src={Twitter} className="logo" />
+                    </a>
+                    <a href="">
+                      <img src={Twitter} className="logo" />
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

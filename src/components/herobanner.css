@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 .main {
   max-width: 1600px;
   width: 100%;
@@ -10,10 +14,16 @@
   color: white;
   max-height: 860px;
 }
+.section-bg {
+  background-color: #64c2c8;
+  overflow: hidden;
+  width: 100%;
+}
 .section-breaker {
   height: 50vh;
   overflow: hidden;
 }
+
 .centered {
   position: absolute;
   bottom: 0;
@@ -56,7 +66,9 @@
   animation: jumpInfinite 1.5s infinite;
   cursor: pointer;
 }
-
+.Typist {
+  font-size: 2.5rem;
+}
 @keyframes jumpInfinite {
   0% {
     bottom: -30px;
@@ -87,6 +99,10 @@ nav {
   height: 46px;
   width: auto;
 }
+.logo-footer {
+  padding: 0px 0 20px 70px;
+  margin-top: -35px;
+}
 
 .section-text {
   display: flex;
@@ -104,4 +120,53 @@ nav {
 }
 .underline {
   text-decoration: underline;
+}
+
+footer .section-footer {
+  height: 360px;
+  background-color: #071937;
+}
+.justify-content-between {
+  display: flex;
+  justify-content: space-between;
+}
+.col-4 {
+  max-width: 33%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 280px;
+}
+.col-2 {
+  max-width: 16.66666667%;
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  height: 280px;
+}
+.left {
+  justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+.social-overlay h4 {
+  margin-bottom: 25px;
+  font-size: 1rem;
+  text-align: left;
+}
+.first-row,
+.second-row {
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+}
+.first-row img,
+.second-row img {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 1025px) {
+  .Typist {
+    font-size: 1.5rem;
+  }
 }
