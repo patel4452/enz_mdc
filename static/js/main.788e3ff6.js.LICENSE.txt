@@ -29,6 +29,16 @@
 */
 
 /*!
+ * Observer 3.11.4
+ * https://greensock.com
+ *
+ * @license Copyright 2008-2022, GreenSock. All rights reserved.
+ * Subject to the terms at https://greensock.com/standard-license or for
+ * Club GreenSock members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
  * ScrollMagic v2.0.7 (2019-05-07)
  * The javascript library for magical scroll interactions.
  * (c) 2019 Jan Paepke (@janpaepke)
@@ -40,6 +50,16 @@
  *
  * @file Debug Extension for ScrollMagic.
  */
+
+/*!
+ * ScrollTrigger 3.11.4
+ * https://greensock.com
+ *
+ * @license Copyright 2008-2022, GreenSock. All rights reserved.
+ * Subject to the terms at https://greensock.com/standard-license or for
+ * Club GreenSock members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
 
 /**
  * @license React
