@@ -5,11 +5,11 @@
 }
 
 .container {
-  width: 1600px !important;
+  width: 100vw !important;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
-  min-width: 1600px;
+  min-width: 100vw;
 }
 
 .panel.align-top {
@@ -90,12 +90,12 @@ h1,
 h2,
 p,
 li {
-  max-width: 1600px;
+  max-width: 100vw;
 }
 
 .pin-spacer {
-  width: 1600px !important;
-  max-width: 1600px;
+  width: 100vw !important;
+  max-width: 100vw;
   margin: 0 !important;
 }
 

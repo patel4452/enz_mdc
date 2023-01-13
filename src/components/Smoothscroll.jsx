@@ -40,25 +40,25 @@ const SmoothScroll = () => {
         <section className="panel" ref={(e) => createPanelsRefs(e, 1)}>
           <span style={{ width: "360px" }}></span>
         </section>
-        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 1)}>
+        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 2)}>
           <img src={Slide1} />
         </section>
         <section
           className="panel keep-down"
-          ref={(e) => createPanelsRefs(e, 2)}
+          ref={(e) => createPanelsRefs(e, 3)}
         >
           <img src={Slide2} />
         </section>
-        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 3)}>
+        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 4)}>
           <img src={Slide3} />
         </section>
         <section
           className="panel keep-down"
-          ref={(e) => createPanelsRefs(e, 4)}
+          ref={(e) => createPanelsRefs(e, 5)}
         >
           <img src={Slide1} />
         </section>
-        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 5)}>
+        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 6)}>
           <img src={Slide2} />
         </section>
       </div>
