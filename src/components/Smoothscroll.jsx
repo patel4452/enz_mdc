@@ -3,9 +3,14 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import "./Smoothscroll.css";
-import Slide1 from "../assets/images/slider-1.png";
-import Slide2 from "../assets/images/slider-2.png";
-import Slide3 from "../assets/images/slider-3.png";
+import Slide1 from "../assets/images/slider-1.jpg";
+import Slide2 from "../assets/images/slider-2.jpg";
+import Slide3 from "../assets/images/slider-3.jpg";
+import Slide4 from "../assets/images/slider-4.jpg";
+import Slide5 from "../assets/images/slider-5.jpg";
+import Slide6 from "../assets/images/slider-6.jpg";
+import Slide7 from "../assets/images/slider-7.jpg";
+import Slide8 from "../assets/images/slider-8.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -41,25 +46,40 @@ const SmoothScroll = () => {
           <span style={{ width: "360px" }}></span>
         </section>
         <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 2)}>
-          <img src={Slide1} />
+          <img src={Slide1} sx={{ width: { xs: "320px", md: "100%" } }} />
         </section>
         <section
           className="panel keep-down"
           ref={(e) => createPanelsRefs(e, 3)}
         >
-          <img src={Slide2} />
+          <img src={Slide2} sx={{ width: { xs: "320px", md: "100%" } }} />
         </section>
         <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 4)}>
-          <img src={Slide3} />
+          <img src={Slide3} sx={{ width: { xs: "320px", md: "100%" } }} />
         </section>
         <section
           className="panel keep-down"
           ref={(e) => createPanelsRefs(e, 5)}
         >
-          <img src={Slide1} />
+          <img src={Slide4} sx={{ width: { xs: "320px", md: "100%" } }} />
         </section>
         <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 6)}>
-          <img src={Slide2} />
+          <img src={Slide5} sx={{ width: { xs: "320px", md: "100%" } }} />
+        </section>
+        <section
+          className="panel keep-down"
+          ref={(e) => createPanelsRefs(e, 7)}
+        >
+          <img src={Slide6} sx={{ width: { xs: "320px", md: "100%" } }} />
+        </section>
+        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 8)}>
+          <img src={Slide7} sx={{ width: { xs: "320px", md: "100%" } }} />
+        </section>
+        <section
+          className="panel keep-down"
+          ref={(e) => createPanelsRefs(e, 9)}
+        >
+          <img src={Slide8} sx={{ width: { xs: "320px", md: "100%" } }} />
         </section>
       </div>
     </>

@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import Learnmore from "../assets/images/learnmore.jpg";
+import TabLearnmore from "../assets/images/learnmore-tab.jpg";
 
 const Sectionbreaker = () => {
   return (
