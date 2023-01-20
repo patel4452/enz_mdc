@@ -4,8 +4,8 @@ import TabheroBanner from "../assets/images/hero-banner-tablet.jpg";
 import arrowDown from "../assets/images/arrow-down.png";
 import Typist from "react-typist";
 import "./herobanner.css";
-import Videoone from "../assets/videos/video1.mp4";
-import Bannervideo from "../assets/images/video_layer.png";
+
+import Videosectionbanner from "./videosection";
 import Clientlogo from "../assets/images/clientlogo.png";
 import Clientlogo2 from "../assets/images/clientlogo1.png";
 import Clientlogo3 from "../assets/images/clientlogo2.png";
@@ -21,6 +21,7 @@ import Parallaxstyletwo from "./parallaxstyletwo";
 import Institutionlayer from "./institutionlayer";
 import Sectionbreaker from "./sectionbreaker";
 import SmoothScroll from "./Smoothscroll";
+import Herobannerimage from "./herobanner-image";
 
 function Herobanner() {
   const ref = useRef(null);
@@ -36,13 +37,7 @@ function Herobanner() {
         <img src={Clientlogo2} className="logo" />
       </nav>
       <div className="section" onClick={handleClick}>
-        <img
-          src={heroBanner}
-          srcSet={`${TabheroBanner} 300w, ${TabheroBanner} 768w, ${heroBanner} 1280w`}
-          sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, 1280px"
-          alt="Snow"
-          className="img-responsive"
-        />
+        <Herobannerimage />
         <div className="centered">
           <h1 className="ml6">
             <div className="text-wrapper">
@@ -57,19 +52,7 @@ function Herobanner() {
           />
         </div>
       </div>
-      <div className="section">
-        <video
-          ref={ref}
-          width="100%"
-          height="100%"
-          preload="auto"
-          controls
-          poster={Bannervideo}
-        >
-          <source src={Videoone} type="video/mp4" />
-          Your browser does not support HTML5 video.
-        </video>
-      </div>
+      <Videosectionbanner clickRef={ref} />
       <Sectiontext />
       <Studyoptions />
       <Parallaxstyletwo />
@@ -79,10 +62,10 @@ function Herobanner() {
       <footer>
         <div className="section-footer">
           <div className="row justify-content-between">
-            <div className="col-4">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <img src={Clientlogo3} className="align-left logo-footer" />
             </div>
-            <div className="col-2">
+            <div className="col-lg-3 col-md-3 col-sm-12">
               <div className="social-overlay">
                 <h4>Find Us here</h4>
                 <div>
