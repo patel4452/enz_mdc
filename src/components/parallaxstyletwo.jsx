@@ -29,9 +29,9 @@ const Parallaxstyletwo = () => {
     query: "(min-device-width: 1200px)",
   });
   return (
-    <div>
+    <>
       {isMobileDevice && (
-        <>
+        <div>
           <Controller>
             <Scene
               duration={1000}
@@ -377,10 +377,10 @@ const Parallaxstyletwo = () => {
               )}
             </Scene>
           </Controller>
-        </>
+        </div>
       )}
       {isTabletDevice && (
-        <>
+        <div>
           <Controller>
             <Scene
               duration={1000}
@@ -726,10 +726,10 @@ const Parallaxstyletwo = () => {
               )}
             </Scene>
           </Controller>
-        </>
+        </div>
       )}
       {isLaptop && (
-        <>
+        <div>
           <Controller>
             <Scene
               duration={1000}
@@ -1078,10 +1078,10 @@ const Parallaxstyletwo = () => {
               )}
             </Scene>
           </Controller>
-        </>
+        </div>
       )}
       {isDesktop && (
-        <>
+        <div>
           <Controller>
             <Scene
               duration={1000}
@@ -1427,9 +1427,9 @@ const Parallaxstyletwo = () => {
               )}
             </Scene>
           </Controller>
-        </>
+        </div>
       )}
-    </div>
+    </>
   );
 };
 

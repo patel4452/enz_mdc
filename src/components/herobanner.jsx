@@ -1,11 +1,10 @@
-import React, { Component, useRef } from "react";
-import heroBanner from "../assets/images/hero-banner.jpg";
-import TabheroBanner from "../assets/images/hero-banner-tablet.jpg";
+import React, { useRef, useEffect, useState } from "react";
 import arrowDown from "../assets/images/arrow-down.png";
 import Typist from "react-typist";
 import "./herobanner.css";
 
 import Videosectionbanner from "./videosection";
+import { useWindowSize } from "./checkresize";
 import Clientlogo from "../assets/images/clientlogo.png";
 import Clientlogo2 from "../assets/images/clientlogo1.png";
 import Clientlogo3 from "../assets/images/clientlogo2.png";
@@ -29,6 +28,21 @@ function Herobanner() {
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const [width, setWidth] = React.useState(window.innerWidth);
+  // Add a second state variable "height" and default it to the current window height
+  const [height, setHeight] = React.useState(window.innerHeight);
+
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setWidth(window.innerWidth);
+      // Set the height in state as well as the width
+      setHeight(window.innerHeight);
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
 
   return (
     <div className="main">
