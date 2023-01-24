@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@font-face {
+  font-family: A23DSolid-Regular;
+  src: url("assets/fonts/A23DSolid-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: UntitledSans-Bold;
+  font-weight: bold;
+  src: url("assets/fonts/UntitledSans-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: UntitledSans-Light;
+  font-weight: light;
+  src: url("assets/fonts/UntitledSans-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: UntitledSans-Medium;
+  font-weight: medium;
+  src: url("assets/fonts/UntitledSans-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: UntitledSans-Regular;
+  font-weight: regular;
+  src: url("assets/fonts/UntitledSans-Regular.otf") format("opentype");
+}

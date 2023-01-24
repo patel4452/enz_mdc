@@ -8,11 +8,11 @@ body {
   margin: 0 auto;
 }
 .section {
-  height: 100vh;
+  height: 90vh;
   position: relative;
   text-align: center;
   color: white;
-  max-height: 860px;
+  /*max-height: 860px;*/
   overflow: hidden;
 }
 .section-bg {
@@ -35,6 +35,7 @@ body {
 .ml6 {
   position: relative;
   font-weight: 900;
+  font-family: A23DSolid-Regular;
 }
 
 .ml6 .text-wrapper {
