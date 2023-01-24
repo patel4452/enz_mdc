@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/enz_mdc/static/css/main.b623882f.css",
+    "main.css": "/enz_mdc/static/css/main.984b7ec1.css",
     "main.js": "/enz_mdc/static/js/main.c282d4c8.js",
     "static/js/787.6e33d290.chunk.js": "/enz_mdc/static/js/787.6e33d290.chunk.js",
     "static/media/video1.mp4": "/enz_mdc/static/media/video1.761013459c7fde4b9917.mp4",
@@ -21,12 +21,17 @@
     "static/media/institution-5.jpg": "/enz_mdc/static/media/institution-5.7374729327e561d9007e.jpg",
     "static/media/institution-7.jpg": "/enz_mdc/static/media/institution-7.7c64edeb4565fa25212a.jpg",
     "static/media/institution-2.jpg": "/enz_mdc/static/media/institution-2.fab5e3805078762755dd.jpg",
+    "static/media/UntitledSans-Bold.otf": "/enz_mdc/static/media/UntitledSans-Bold.3d5e16ad3b51abd4234f.otf",
+    "static/media/UntitledSans-Medium.otf": "/enz_mdc/static/media/UntitledSans-Medium.989d541bd6070dd0a5d5.otf",
+    "static/media/UntitledSans-Regular.otf": "/enz_mdc/static/media/UntitledSans-Regular.1fd8efb8fb8116368d8d.otf",
+    "static/media/UntitledSans-Light.otf": "/enz_mdc/static/media/UntitledSans-Light.1ccd56dd998408754469.otf",
     "static/media/institution-1.jpg": "/enz_mdc/static/media/institution-1.ab6488b5f95143eb04ab.jpg",
     "static/media/institution-8.jpg": "/enz_mdc/static/media/institution-8.e439c8c7d4e6d85b245c.jpg",
     "static/media/institution-3.jpg": "/enz_mdc/static/media/institution-3.aac8c38ee09af78d4c3b.jpg",
     "static/media/slider-1.jpg": "/enz_mdc/static/media/slider-1.284dbabb82709e6a7cdb.jpg",
     "static/media/slider-6.jpg": "/enz_mdc/static/media/slider-6.9ab5e3a6ed1d08caf552.jpg",
     "static/media/slider-5.jpg": "/enz_mdc/static/media/slider-5.d05d72219ab542f4593a.jpg",
+    "static/media/A23DSolid-Regular.otf": "/enz_mdc/static/media/A23DSolid-Regular.cced92b5e65512f588a2.otf",
     "static/media/slider-3.jpg": "/enz_mdc/static/media/slider-3.257429ab762093fdf13f.jpg",
     "static/media/slider-2.jpg": "/enz_mdc/static/media/slider-2.0f5a2bf715600df8c6e5.jpg",
     "static/media/slider-4.jpg": "/enz_mdc/static/media/slider-4.657fc5219a161837af39.jpg",
@@ -39,12 +44,12 @@
     "static/media/layer4-2.png": "/enz_mdc/static/media/layer4-2.ee73e894593a0169b49d.png",
     "static/media/logo.svg": "/enz_mdc/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/enz_mdc/index.html",
-    "main.b623882f.css.map": "/enz_mdc/static/css/main.b623882f.css.map",
+    "main.984b7ec1.css.map": "/enz_mdc/static/css/main.984b7ec1.css.map",
     "main.c282d4c8.js.map": "/enz_mdc/static/js/main.c282d4c8.js.map",
     "787.6e33d290.chunk.js.map": "/enz_mdc/static/js/787.6e33d290.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b623882f.css",
+    "static/css/main.984b7ec1.css",
     "static/js/main.c282d4c8.js"
   ]
 }
