@@ -84,7 +84,7 @@ function Herobanner() {
                 <h4>Find Us here</h4>
                 <div>
                   <span className="first-row social-row">
-                    <a href="">
+                    <a href="https://www.facebook.com/studywithnewzealand">
                       <img src={Facebook} className="logo" />
                     </a>
                     <a href="">
