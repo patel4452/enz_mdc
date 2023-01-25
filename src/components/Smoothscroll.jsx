@@ -40,48 +40,34 @@ const SmoothScroll = () => {
   }, []);
 
   return (
-    <div>
-      <div className="container section-bg" ref={panelsContainer}>
-        <section className="panel" ref={(e) => createPanelsRefs(e, 1)}>
-          <span style={{ width: "320px" }}></span>
-        </section>
-        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 2)}>
-          <img src={Slide1} style={{ width: "320px" }} />
-        </section>
-        <section
-          className="panel keep-down"
-          ref={(e) => createPanelsRefs(e, 3)}
-        >
-          <img src={Slide2} style={{ width: "320px" }} />
-        </section>
-        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 4)}>
-          <img src={Slide3} style={{ width: "320px" }} />
-        </section>
-        <section
-          className="panel keep-down"
-          ref={(e) => createPanelsRefs(e, 5)}
-        >
-          <img src={Slide4} style={{ width: "320px" }} />
-        </section>
-        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 6)}>
-          <img src={Slide5} style={{ width: "320px" }} />
-        </section>
-        <section
-          className="panel keep-down"
-          ref={(e) => createPanelsRefs(e, 7)}
-        >
-          <img src={Slide6} style={{ width: "320px" }} />
-        </section>
-        <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 8)}>
-          <img src={Slide7} style={{ width: "320px" }} />
-        </section>
-        <section
-          className="panel keep-down"
-          ref={(e) => createPanelsRefs(e, 9)}
-        >
-          <img src={Slide8} style={{ width: "320px" }} />
-        </section>
-      </div>
+    <div className="container" ref={panelsContainer}>
+      <section className="panel" ref={(e) => createPanelsRefs(e, 1)}>
+        <span style={{ width: "320px" }}></span>
+      </section>
+      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 2)}>
+        <img src={Slide1} style={{ width: "320px" }} />
+      </section>
+      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 3)}>
+        <img src={Slide2} style={{ width: "320px" }} />
+      </section>
+      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 4)}>
+        <img src={Slide3} style={{ width: "320px" }} />
+      </section>
+      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 5)}>
+        <img src={Slide4} style={{ width: "320px" }} />
+      </section>
+      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 6)}>
+        <img src={Slide5} style={{ width: "320px" }} />
+      </section>
+      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 7)}>
+        <img src={Slide6} style={{ width: "320px" }} />
+      </section>
+      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 8)}>
+        <img src={Slide7} style={{ width: "320px" }} />
+      </section>
+      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 9)}>
+        <img src={Slide8} style={{ width: "320px" }} />
+      </section>
     </div>
   );
 };

@@ -12,50 +12,50 @@ import Institution8 from "../assets/images/institution-8.jpg";
 
 const Institutionlayer = () => {
   return (
-    <div className="parent">
-      <div className="child">
+    <div className="parent overflow-hidden">
+      <div className="child p-1">
         <Fade>
           <img src={Institution1} className="img-responsive" />
           <span>The University of Auckland</span>
         </Fade>
       </div>
-      <div className="child">
+      <div className="child p-1">
         <Fade>
           <img src={Institution2} className="img-responsive" />
           <span>Auckland University of Technology</span>
         </Fade>
       </div>
-      <div className="child">
+      <div className="child p-1">
         <Fade>
           <img src={Institution3} className="img-responsive" />
           <span>University of Canterbury</span>
         </Fade>
       </div>
-      <div className="child">
+      <div className="child p-1">
         <Fade>
           <img src={Institution4} className="img-responsive" />
           <span>Lincoln University</span>
         </Fade>
       </div>
-      <div className="child">
+      <div className="child p-1">
         <Fade>
           <img src={Institution5} className="img-responsive" />
           <span>Massey University</span>
         </Fade>
       </div>
-      <div className="child">
+      <div className="child p-1">
         <Fade>
           <img src={Institution6} className="img-responsive" />
           <span>University of Otago</span>
         </Fade>
       </div>
-      <div className="child">
+      <div className="child p-1">
         <Fade>
           <img src={Institution7} className="img-responsive" />
           <span>Victoria University of Wellington</span>
         </Fade>
       </div>
-      <div className="child">
+      <div className="child p-1">
         <Fade>
           <img src={Institution8} className="img-responsive" />
           <span>University of Waikato</span>

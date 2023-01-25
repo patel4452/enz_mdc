@@ -69,6 +69,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -184,6 +185,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -216,7 +218,7 @@ const Parallaxstyletwo = () => {
                         style={{
                           position: "absolute",
                           zIndex: 0,
-                          right: "10%",
+                          left: "10%",
                           bottom: "45%",
                           maxWidth: "90%",
                         }}
@@ -299,6 +301,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -331,7 +334,7 @@ const Parallaxstyletwo = () => {
                         style={{
                           position: "absolute",
                           zIndex: 0,
-                          right: "10%",
+                          left: "10%",
                           bottom: "45%",
                           maxWidth: "90%",
                         }}
@@ -418,6 +421,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -533,6 +537,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -648,6 +653,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -767,6 +773,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -883,6 +890,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -999,6 +1007,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -1119,6 +1128,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -1234,6 +1244,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>
@@ -1349,6 +1360,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
+                          maxWidth: "100%",
                         }}
                       />
                     </Tween>

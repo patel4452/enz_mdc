@@ -4,7 +4,6 @@ import Typist from "react-typist";
 import "./herobanner.css";
 
 import Videosectionbanner from "./videosection";
-import { useWindowSize } from "./checkresize";
 import Clientlogo from "../assets/images/clientlogo.png";
 import Clientlogo2 from "../assets/images/clientlogo1.png";
 import Clientlogo3 from "../assets/images/clientlogo2.png";
@@ -45,12 +44,12 @@ function Herobanner() {
   }, []);
 
   return (
-    <div className="main">
+    <div className="main p-0 m-0">
       <nav>
         <img src={Clientlogo} className="align-left logo" />
         <img src={Clientlogo2} className="logo" />
       </nav>
-      <div className="section" onClick={handleClick}>
+      <div className="section overflow-hidden" onClick={handleClick}>
         <Herobannerimage />
         <div className="centered">
           <h1 className="ml6">
@@ -72,9 +71,11 @@ function Herobanner() {
       <Parallaxstyletwo />
       <Institutionlayer />
       <Sectionbreaker />
-      <SmoothScroll />
+      <div className="section-bg">
+        <SmoothScroll />
+      </div>
       <footer>
-        <div className="section-footer">
+        <div className="section-footer overflow-hidden">
           <div className="row justify-content-between">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <img src={Clientlogo3} className="align-left logo-footer" />
@@ -87,18 +88,18 @@ function Herobanner() {
                     <a href="https://www.facebook.com/studywithnewzealand">
                       <img src={Facebook} className="logo" />
                     </a>
-                    <a href="">
+                    <a href="https://twitter.com/studywithnz">
                       <img src={Twitter} className="logo" />
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/studywithnewzealand/">
                       <img src={Instagram} className="logo" />
                     </a>
                   </span>
                   <span className="second-row social-row">
-                    <a href="">
+                    <a href="http://www.youtube.com/user/realstudentsnz">
                       <img src={Youtube} className="logo" />
                     </a>
-                    <a href="">
+                    <a href="http://www.weibo.com/studynewzealand">
                       <img src={Social} className="logo" />
                     </a>
                     <a href="">

@@ -33,9 +33,10 @@
 @media only screen and (max-width: 480px) {
   .parent {
     padding: 1rem;
+    flex-direction: column;
   }
   .child {
-    flex: 1 0 100%;
+    /*flex: 1 0 100%;*/
     margin-bottom: 1.5rem;
   }
   .child span {
