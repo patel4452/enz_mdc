@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll;
+  font-family: UntitledSans-Regular;
 }
 .main {
   /*max-width: 1600px;*/
@@ -198,9 +199,9 @@ footer .section-footer {
 }
 
 @media only screen and (max-width: 480px) {
-  .section {
+  /*.section {
     height: 80vh;
-  }
+  }*/
   .section-breaker {
     height: 45vh;
   }

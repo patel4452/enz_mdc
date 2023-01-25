@@ -10,6 +10,9 @@ import Parallax3 from "../assets/images/parallax-3.jpg";
 import Parallax1tab from "../assets/images/parallax-tablet-1.jpg";
 import Parallax2tab from "../assets/images/parallax-tablet-2.jpg";
 import Parallax3tab from "../assets/images/parallax-tablet-3.jpg";
+import Parallax1mob from "../assets/images/parallax-mob-1.jpg";
+import Parallax2mob from "../assets/images/parallax-mob-2.jpg";
+import Parallax3mob from "../assets/images/parallax-mob-3.jpg";
 import Check from "../assets/images/check_enz.png";
 
 const Parallaxstyletwo = () => {
@@ -58,7 +61,7 @@ const Parallaxstyletwo = () => {
                       duration={1000}
                     >
                       <img
-                        src={Parallax1}
+                        src={Parallax1mob}
                         style={{
                           width: "100%",
                           transition: "transform .4s ease-out",
@@ -173,7 +176,7 @@ const Parallaxstyletwo = () => {
                       duration={1000}
                     >
                       <img
-                        src={Parallax2}
+                        src={Parallax2mob}
                         style={{
                           width: "100%",
                           transition: "transform .4s ease-out",
@@ -288,7 +291,7 @@ const Parallaxstyletwo = () => {
                       duration={1000}
                     >
                       <img
-                        src={Parallax3}
+                        src={Parallax3mob}
                         style={{
                           width: "100%",
                           transition: "transform .4s ease-out",
