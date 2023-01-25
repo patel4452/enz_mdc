@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/enz_mdc/static/css/main.aa245ec0.css",
-    "main.js": "/enz_mdc/static/js/main.0cbdd0b6.js",
+    "main.css": "/enz_mdc/static/css/main.6b388f00.css",
+    "main.js": "/enz_mdc/static/js/main.43b1c429.js",
     "static/js/787.6e33d290.chunk.js": "/enz_mdc/static/js/787.6e33d290.chunk.js",
     "static/media/video1.mp4": "/enz_mdc/static/media/video1.761013459c7fde4b9917.mp4",
     "static/media/hero-banner.jpg": "/enz_mdc/static/media/hero-banner.c5fd9486a68d6571805f.jpg",
@@ -47,12 +47,12 @@
     "static/media/layer4-2.png": "/enz_mdc/static/media/layer4-2.ee73e894593a0169b49d.png",
     "static/media/logo.svg": "/enz_mdc/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/enz_mdc/index.html",
-    "main.aa245ec0.css.map": "/enz_mdc/static/css/main.aa245ec0.css.map",
-    "main.0cbdd0b6.js.map": "/enz_mdc/static/js/main.0cbdd0b6.js.map",
+    "main.6b388f00.css.map": "/enz_mdc/static/css/main.6b388f00.css.map",
+    "main.43b1c429.js.map": "/enz_mdc/static/js/main.43b1c429.js.map",
     "787.6e33d290.chunk.js.map": "/enz_mdc/static/js/787.6e33d290.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa245ec0.css",
-    "static/js/main.0cbdd0b6.js"
+    "static/css/main.6b388f00.css",
+    "static/js/main.43b1c429.js"
   ]
 }
