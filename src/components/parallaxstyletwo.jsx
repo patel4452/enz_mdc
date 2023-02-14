@@ -140,7 +140,7 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
+                            Choose to progress your education to any one of New
                             Zealand's world-ranked universities.
                           </span>
                         </p>
@@ -203,8 +203,7 @@ const Parallaxstyletwo = () => {
                           top: "0",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Top Reasons to Study in New Zealand
                       </h2>
                     </Tween>
 
@@ -228,16 +227,6 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
                           <span>Enjoy the convenience of studying locally</span>
                         </p>
                         <p>
@@ -246,8 +235,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            High-Quality Education. All eight of our
+                            universities are in the top 3% in the world.
                           </span>
                         </p>
                         <p>
@@ -256,8 +245,28 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            Unbeatable Lifestyle. New Zealand is known around
+                            the world for our incredible work-life balance.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Work Ready. A New Zealand education gives you skills
+                            that prepares you for the future of work.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain life skills. Studying in New Zealand is an
+                            opportunity for personal growth and development.
                           </span>
                         </p>
                       </div>
@@ -319,8 +328,7 @@ const Parallaxstyletwo = () => {
                           top: "0",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Begin Your New Zealand Education Online Now
                       </h2>
                     </Tween>
 
@@ -344,17 +352,7 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
-                          <span>Enjoy the convenience of studying locally</span>
+                          <span>Enjoy better work-life balance.</span>
                         </p>
                         <p>
                           <img
@@ -362,8 +360,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            Learn at your own pace for an education experience
+                            that suits your needs.
                           </span>
                         </p>
                         <p>
@@ -372,8 +370,18 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            An accessible education option – studying online is
+                            affordable and flexible.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain globally-recognised qualifications that will
+                            enable you to succeed in the future.
                           </span>
                         </p>
                       </div>
@@ -492,7 +500,7 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
+                            Choose to progress your education to any one of New
                             Zealand's world-ranked universities.
                           </span>
                         </p>
@@ -555,8 +563,7 @@ const Parallaxstyletwo = () => {
                           top: "0",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Top Reasons to Study in New Zealand
                       </h2>
                     </Tween>
 
@@ -580,16 +587,6 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
                           <span>Enjoy the convenience of studying locally</span>
                         </p>
                         <p>
@@ -598,8 +595,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            High-Quality Education. All eight of our
+                            universities are in the top 3% in the world.
                           </span>
                         </p>
                         <p>
@@ -608,8 +605,28 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            Unbeatable Lifestyle. New Zealand is known around
+                            the world for our incredible work-life balance.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Work Ready. A New Zealand education gives you skills
+                            that prepares you for the future of work.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain life skills. Studying in New Zealand is an
+                            opportunity for personal growth and development.
                           </span>
                         </p>
                       </div>
@@ -671,8 +688,7 @@ const Parallaxstyletwo = () => {
                           top: "0",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Begin Your New Zealand Education Online Now
                       </h2>
                     </Tween>
 
@@ -696,17 +712,7 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
-                          <span>Enjoy the convenience of studying locally</span>
+                          <span>Enjoy better work-life balance.</span>
                         </p>
                         <p>
                           <img
@@ -714,8 +720,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            Learn at your own pace for an education experience
+                            that suits your needs.
                           </span>
                         </p>
                         <p>
@@ -724,8 +730,18 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            An accessible education option – studying online is
+                            affordable and flexible.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain globally-recognised qualifications that will
+                            enable you to succeed in the future.
                           </span>
                         </p>
                       </div>
@@ -845,7 +861,7 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
+                            Choose to progress your education to any one of New
                             Zealand's world-ranked universities.
                           </span>
                         </p>
@@ -909,8 +925,7 @@ const Parallaxstyletwo = () => {
                           right: "15%",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Top Reasons to Study in New Zealand
                       </h2>
                     </Tween>
 
@@ -934,16 +949,6 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
                           <span>Enjoy the convenience of studying locally</span>
                         </p>
                         <p>
@@ -952,8 +957,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            High-Quality Education. All eight of our
+                            universities are in the top 3% in the world.
                           </span>
                         </p>
                         <p>
@@ -962,8 +967,28 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            Unbeatable Lifestyle. New Zealand is known around
+                            the world for our incredible work-life balance.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Work Ready. A New Zealand education gives you skills
+                            that prepares you for the future of work.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain life skills. Studying in New Zealand is an
+                            opportunity for personal growth and development.
                           </span>
                         </p>
                       </div>
@@ -1026,8 +1051,7 @@ const Parallaxstyletwo = () => {
                           right: "15%",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Begin Your New Zealand Education Online Now
                       </h2>
                     </Tween>
 
@@ -1051,17 +1075,7 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
-                          <span>Enjoy the convenience of studying locally</span>
+                          <span>Enjoy better work-life balance.</span>
                         </p>
                         <p>
                           <img
@@ -1069,8 +1083,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            Learn at your own pace for an education experience
+                            that suits your needs.
                           </span>
                         </p>
                         <p>
@@ -1079,8 +1093,18 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            An accessible education option – studying online is
+                            affordable and flexible.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain globally-recognised qualifications that will
+                            enable you to succeed in the future.
                           </span>
                         </p>
                       </div>
@@ -1199,7 +1223,7 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
+                            Choose to progress your education to any one of New
                             Zealand's world-ranked universities.
                           </span>
                         </p>
@@ -1262,8 +1286,7 @@ const Parallaxstyletwo = () => {
                           top: "0",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Top Reasons to Study in New Zealand
                       </h2>
                     </Tween>
 
@@ -1287,16 +1310,6 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
                           <span>Enjoy the convenience of studying locally</span>
                         </p>
                         <p>
@@ -1305,8 +1318,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            High-Quality Education. All eight of our
+                            universities are in the top 3% in the world.
                           </span>
                         </p>
                         <p>
@@ -1315,8 +1328,28 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            Unbeatable Lifestyle. New Zealand is known around
+                            the world for our incredible work-life balance.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Work Ready. A New Zealand education gives you skills
+                            that prepares you for the future of work.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain life skills. Studying in New Zealand is an
+                            opportunity for personal growth and development.
                           </span>
                         </p>
                       </div>
@@ -1378,8 +1411,7 @@ const Parallaxstyletwo = () => {
                           top: "0",
                         }}
                       >
-                        Why You Should Choose<br></br> a Global Pathway
-                        Programme to New Zealand
+                        Begin Your New Zealand Education Online Now
                       </h2>
                     </Tween>
 
@@ -1403,17 +1435,7 @@ const Parallaxstyletwo = () => {
                             src={Check}
                             className="img-responsive align-icon"
                           />
-                          <span>
-                            Start your journey right now, at a recognised
-                            provider near you
-                          </span>
-                        </p>
-                        <p>
-                          <img
-                            src={Check}
-                            className="img-responsive align-icon"
-                          />
-                          <span>Enjoy the convenience of studying locally</span>
+                          <span>Enjoy better work-life balance.</span>
                         </p>
                         <p>
                           <img
@@ -1421,8 +1443,8 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Studying closer to home means you'll save on travel
-                            and living costs
+                            Learn at your own pace for an education experience
+                            that suits your needs.
                           </span>
                         </p>
                         <p>
@@ -1431,8 +1453,18 @@ const Parallaxstyletwo = () => {
                             className="img-responsive align-icon"
                           />
                           <span>
-                            Choose to progress your education to anyone of New
-                            Zealand's world-ranked universities.
+                            An accessible education option – studying online is
+                            affordable and flexible.
+                          </span>
+                        </p>
+                        <p>
+                          <img
+                            src={Check}
+                            className="img-responsive align-icon"
+                          />
+                          <span>
+                            Gain globally-recognised qualifications that will
+                            enable you to succeed in the future.
                           </span>
                         </p>
                       </div>

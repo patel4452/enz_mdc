@@ -20,8 +20,10 @@ import Institutionlayer from "./institutionlayer";
 import Sectionbreaker from "./sectionbreaker";
 import SmoothScroll from "./Smoothscroll";
 import Herobannerimage from "./herobanner-image";
+import ReactGA from "react-ga4";
 
 function Herobanner() {
+  ReactGA.initialize("G-Y7L5D4PHT1");
   const ref = useRef(null);
 
   const handleClick = () => {

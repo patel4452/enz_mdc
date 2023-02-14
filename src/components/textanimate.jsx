@@ -17,13 +17,20 @@ class Sectiontext extends Component {
           </p>
           <p className="copy-dark pb-2">
             Enjoy the convenience of a locally delivered course with{" "}
-            <span className="underline copy-dark">global pathways</span>, or
-            study from anywhere in the worls by{" "}
-            <span className="underline copy-dark">learning online</span>. Learn
-            about our high-quality education and unbeatable lifestyle when you{" "}
-            <span className="underline copy-dark">
-              study right here in New Zealand.
-            </span>
+            <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/global-pathways">
+              <span className="underline copy-dark">global pathways</span>
+            </a>
+            , or study from anywhere in the worls by{" "}
+            <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/study-online">
+              <span className="underline copy-dark">learning online</span>
+            </a>
+            . Learn about our high-quality education and unbeatable lifestyle
+            when you{" "}
+            <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/study-in-nz">
+              <span className="underline copy-dark">
+                study right here in New Zealand.
+              </span>
+            </a>
           </p>
         </Fade>
       </div>

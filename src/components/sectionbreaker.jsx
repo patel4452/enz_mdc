@@ -50,7 +50,7 @@ const Sectionbreaker = () => {
                   two years, and look forward to seeing more of you in our
                   classrooms and learning environment soon.
                 </p>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     LEARN MORE
                   </button>
@@ -64,7 +64,7 @@ const Sectionbreaker = () => {
                 <h2 className="copy-title title-primary pb-4">
                   Click the button below to learn more about your study options
                 </h2>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en/study-options/higher-education/courses-and-programmes">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     COURSE AVAILABLE
                   </button>
@@ -100,7 +100,7 @@ const Sectionbreaker = () => {
                   two years, and look forward to seeing more of you in our
                   classrooms and learning environment soon.
                 </p>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     LEARN MORE
                   </button>
@@ -114,7 +114,7 @@ const Sectionbreaker = () => {
                 <h2 className="copy-title title-primary pb-4">
                   Click the button below to learn more about your study options
                 </h2>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en/study-options/higher-education/courses-and-programmes">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     COURSE AVAILABLE
                   </button>
@@ -150,7 +150,7 @@ const Sectionbreaker = () => {
                   two years, and look forward to seeing more of you in our
                   classrooms and learning environment soon.
                 </p>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     LEARN MORE
                   </button>
@@ -164,7 +164,7 @@ const Sectionbreaker = () => {
                 <h2 className="copy-title title-primary pb-4">
                   Click the button below to learn more about your study options
                 </h2>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en/study-options/higher-education/courses-and-programmes">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     COURSE AVAILABLE
                   </button>
@@ -200,7 +200,7 @@ const Sectionbreaker = () => {
                   two years, and look forward to seeing more of you in our
                   classrooms and learning environment soon.
                 </p>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     LEARN MORE
                   </button>
@@ -214,7 +214,7 @@ const Sectionbreaker = () => {
                 <h2 className="copy-title title-primary pb-4">
                   Click the button below to learn more about your study options
                 </h2>
-                <a href="#">
+                <a href="https://www.studywithnewzealand.govt.nz/en/study-options/higher-education/courses-and-programmes">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
                     COURSE AVAILABLE
                   </button>

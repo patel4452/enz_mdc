@@ -16,20 +16,22 @@ const Studyoptions = () => {
             <img src={image1} className="img-responsive img-icon" />
           </div>
           <div className="copy-text p-3 pt-0 ">
-            <h3 className="copy-text pb-3">Global pathways</h3>
+            <h3 className="copy-text pb-3">Global Pathways</h3>
             <p className="copy-text pb-3">
               <strong>
                 Take the first step towards your New Zealand education with
-                global pathways.
+                Global Pathways.
               </strong>
             </p>
             <p className="copy-text-light pb-3">
-              Enjoy the convenience of studying locally with a global pathways
-              course. find a local course provider and start your New Zealand
-              education journet now.
+              Enjoy the convenience of studying locally with a Global Pathways
+              course. Find a local course provider and start your New Zealand
+              education journey now.
             </p>
             <p className="copy-text">
-              <strong>Learn about global pathway &#62; </strong>
+              <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/global-pathways">
+                <strong>Learn about Global Pathways &#62; </strong>
+              </a>
             </p>
           </div>
         </div>
@@ -44,16 +46,14 @@ const Studyoptions = () => {
             </p>
             <p className="copy-text-light pb-3">
               New Zealand is one of the best places to live and study. Our
-              unique cultural values such as kaitiakitanga
-              <span className="next-line pt-1">
-                &#8212; care for the world around us and future generations
-              </span>
-              <span className="next-line pt-1">
-                &#8212; influences out education system and way of life.
-              </span>
+              unique cultural values such as kaitiakitanga ( care for the world
+              around us and future generations ) influences out education system
+              and way of life.
             </p>
             <p className="copy-text">
-              <strong>Learn about study here &#62; </strong>
+              <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/study-in-nz">
+                <strong>Learn about studying in NZ here &#62; </strong>
+              </a>
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Studyoptions = () => {
             <img src={image3} className="img-responsive img-icon" />
           </div>
           <div className="copy-text p-3 pt-0">
-            <h3 className="copy-text pb-3">Study online</h3>
+            <h3 className="copy-text pb-3">Study Online</h3>
             <p className="copy-text pb-3">
               <strong>
                 Study from anywhere in the world and access your New Zealand
@@ -74,7 +74,9 @@ const Studyoptions = () => {
               interests you and start your New Zealand education journey online.
             </p>
             <p className="copy-text">
-              <strong>Learn about studying online &#62; </strong>
+              <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/study-online">
+                <strong>Learn about studying online &#62; </strong>
+              </a>
             </p>
           </div>
         </div>
