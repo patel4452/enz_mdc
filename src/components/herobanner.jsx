@@ -49,7 +49,6 @@ function Herobanner() {
     <div className="main p-0 m-0">
       <nav>
         <img src={Clientlogo} className="align-left logo" />
-        <img src={Clientlogo2} className="logo" />
       </nav>
       <div className="section overflow-hidden" onClick={handleClick}>
         <Herobannerimage />
