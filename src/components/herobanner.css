@@ -103,6 +103,10 @@ nav {
   margin: 0 auto 0 0;
 }
 .logo {
+  height: 46px;
+  width: auto;
+}
+.logo-header {
   height: 70px;
   width: auto;
 }
