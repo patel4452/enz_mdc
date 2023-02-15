@@ -20,7 +20,7 @@ body {
   background-color: #64c2c8;
   overflow: hidden;
   width: 100%;
-  display: flex;
+  display: block;
 }
 .section-breaker {
   height: 50vh;
