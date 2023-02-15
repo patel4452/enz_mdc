@@ -98,7 +98,7 @@ const Sectionbreaker = () => {
                 <p className="text-light pb-2">
                   We've missed hosting new international students over the past
                   two years, and look forward to seeing more of you in our
-                  classrooms and learning environment soon.
+                  classrooms and learning environments soon.
                 </p>
                 <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
@@ -148,7 +148,7 @@ const Sectionbreaker = () => {
                 <p className="text-light pb-2">
                   We've missed hosting new international students over the past
                   two years, and look forward to seeing more of you in our
-                  classrooms and learning environment soon.
+                  classrooms and learning environments soon.
                 </p>
                 <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">
@@ -186,7 +186,7 @@ const Sectionbreaker = () => {
           >
             <div className="w-50 h-100 mx-auto d-flex flex-column justify-content-end pb-5">
               <Fade bottom>
-                <h2 className="copy-title title-primary pb-4">
+                <h2 className="copy-title title-regular pb-4">
                   We're excited to welcome students back!
                 </h2>
                 <p className="text-light pb-2">
@@ -198,7 +198,7 @@ const Sectionbreaker = () => {
                 <p className="text-light pb-2">
                   We've missed hosting new international students over the past
                   two years, and look forward to seeing more of you in our
-                  classrooms and learning environment soon.
+                  classrooms and learning environments soon.
                 </p>
                 <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">

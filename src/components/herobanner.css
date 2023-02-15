@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: UntitledSans-Regular;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main {
   /*max-width: 1600px;*/
@@ -121,10 +121,12 @@ nav {
 }
 .title-primary {
   font-size: 2.5rem;
-  color: #dd552f;
+  /*color: #dd552f;*/
+  color: #000;
 }
 .copy-dark {
-  color: #8e8e8e;
+  /*color: #8e8e8e;*/
+  color: #000;
 }
 .underline {
   text-decoration: underline;
