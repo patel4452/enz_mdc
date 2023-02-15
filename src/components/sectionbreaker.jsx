@@ -48,7 +48,7 @@ const Sectionbreaker = () => {
                 <p className="text-light pb-2">
                   We've missed hosting new international students over the past
                   two years, and look forward to seeing more of you in our
-                  classrooms and learning environment soon.
+                  classrooms and learning environments soon.
                 </p>
                 <a href="https://www.studywithnewzealand.govt.nz/en">
                   <button className="w-50 p-2 btn btn-danger btn-rounded rounded-pill">

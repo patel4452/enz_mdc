@@ -8,8 +8,13 @@
   flex: 1 0 21%; /* explanation below */
   margin: 5px;
   height: 100%;
-  background-color: blue;
+  background-color: #64c2c8;
   position: relative;
+}
+.child img {
+  margin: auto;
+  display: block;
+  width: 100%;
 }
 .child span {
   padding: 10px 0 0 10px;

@@ -20,7 +20,7 @@ class Sectiontext extends Component {
             <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/global-pathways">
               <span className="underline copy-dark">global pathways</span>
             </a>
-            , or study from anywhere in the worls by{" "}
+            , or study from anywhere in the world by{" "}
             <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/study-online">
               <span className="underline copy-dark">learning online</span>
             </a>
