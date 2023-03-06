@@ -1128,7 +1128,7 @@ const Parallaxstyletwo = () => {
               {(progress) => (
                 <div
                   style={{
-                    background: "#000000",
+                    background: "#071937",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -1138,11 +1138,7 @@ const Parallaxstyletwo = () => {
                   }}
                 >
                   <Timeline totalProgress={progress} paused>
-                    <Tween
-                      from={{ y: "0vh", scale: 1.5 }}
-                      to={{ y: "1vh", scale: 1.1 }}
-                      duration={1000}
-                    >
+                    <Tween>
                       <img
                         src={Parallax1}
                         style={{
@@ -1152,7 +1148,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
-                          maxWidth: "100%",
+                          maxWidth: "50%",
                         }}
                       />
                     </Tween>
@@ -1162,12 +1158,14 @@ const Parallaxstyletwo = () => {
                       duration={1000}
                     >
                       <h2
-                        className="copy-title title-regular pt-5 pb-4 align-center"
+                        className="copy-title title-regular pt-5 pb-4 align-right"
                         style={{
                           position: "absolute",
                           zIndex: 1,
-                          //left: "15%",
+                          right: "5%",
                           top: "0",
+                          textAlign: "left",
+                          width: "40%",
                         }}
                       >
                         Why You Should Choose<br></br> a Global Pathway
@@ -1185,7 +1183,7 @@ const Parallaxstyletwo = () => {
                         style={{
                           position: "absolute",
                           zIndex: 0,
-                          left: "10%",
+                          right: "5%",
                           bottom: "45%",
                           maxWidth: "40%",
                         }}
@@ -1244,7 +1242,7 @@ const Parallaxstyletwo = () => {
               {(progress) => (
                 <div
                   style={{
-                    background: "#000000",
+                    background: "#DD552F",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -1254,11 +1252,7 @@ const Parallaxstyletwo = () => {
                   }}
                 >
                   <Timeline totalProgress={progress} paused>
-                    <Tween
-                      from={{ y: "0vh", scale: 1.5 }}
-                      to={{ y: "1vh", scale: 1.1 }}
-                      duration={1000}
-                    >
+                    <Tween>
                       <img
                         src={Parallax2}
                         style={{
@@ -1268,7 +1262,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
-                          maxWidth: "100%",
+                          maxWidth: "50%",
                         }}
                       />
                     </Tween>
@@ -1282,8 +1276,10 @@ const Parallaxstyletwo = () => {
                         style={{
                           position: "absolute",
                           zIndex: 1,
-                          //left: "15%",
+                          right: "5%",
                           top: "0",
+                          width: "40%",
+                          textAlign: "left",
                         }}
                       >
                         Top Reasons to Study in New Zealand
@@ -1300,7 +1296,7 @@ const Parallaxstyletwo = () => {
                         style={{
                           position: "absolute",
                           zIndex: 0,
-                          right: "10%",
+                          right: "5%",
                           bottom: "45%",
                           maxWidth: "40%",
                         }}
@@ -1369,7 +1365,7 @@ const Parallaxstyletwo = () => {
               {(progress) => (
                 <div
                   style={{
-                    background: "#000000",
+                    background: "#071937",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -1379,11 +1375,7 @@ const Parallaxstyletwo = () => {
                   }}
                 >
                   <Timeline totalProgress={progress} paused>
-                    <Tween
-                      from={{ y: "0vh", scale: 1.5 }}
-                      to={{ y: "1vh", scale: 1.1 }}
-                      duration={1000}
-                    >
+                    <Tween>
                       <img
                         src={Parallax3}
                         style={{
@@ -1393,7 +1385,7 @@ const Parallaxstyletwo = () => {
                           zIndex: 0,
                           left: 0,
                           top: 0,
-                          maxWidth: "100%",
+                          maxWidth: "50%",
                         }}
                       />
                     </Tween>
@@ -1407,8 +1399,10 @@ const Parallaxstyletwo = () => {
                         style={{
                           position: "absolute",
                           zIndex: 1,
-                          //left: "15%",
+                          right: "5%",
                           top: "0",
+                          textAlign: "left",
+                          width: "40%",
                         }}
                       >
                         Begin Your New Zealand Education Online Now
@@ -1425,7 +1419,7 @@ const Parallaxstyletwo = () => {
                         style={{
                           position: "absolute",
                           zIndex: 0,
-                          right: "10%",
+                          right: "5%",
                           bottom: "45%",
                           maxWidth: "40%",
                         }}

@@ -26,9 +26,9 @@ function Herobanner() {
   ReactGA.initialize("G-Y7L5D4PHT1");
   const ref = useRef(null);
 
-  const handleClick = () => {
+  /*const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
-  };
+  };*/
 
   const [width, setWidth] = React.useState(window.innerWidth);
   // Add a second state variable "height" and default it to the current window height
@@ -50,24 +50,18 @@ function Herobanner() {
       <nav>
         <img src={Clientlogo} className="align-left logo-header" />
       </nav>
-      <div className="section overflow-hidden" onClick={handleClick}>
-        <Herobannerimage />
-        <div className="centered">
-          <h1 className="ml6">
-            <div className="text-wrapper">
-              <Typist>Live your ambitions from accross the globe.</Typist>
-            </div>
-          </h1>
-
-          <p>We create global pathways so you can create your global future</p>
-          <img
-            src={arrowDown}
-            className="icon icon-size-sm img-responsive down-arrow"
-          />
+      <div className="section overflow-hidden">
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
+            <Herobannerimage />
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
+            <Sectiontext />
+          </div>
         </div>
       </div>
       <Videosectionbanner clickRef={ref} />
-      <Sectiontext />
+
       <Studyoptions />
       <Parallaxstyletwo />
       <Institutionlayer />
