@@ -71,7 +71,7 @@ function Herobanner() {
       </div>
       <footer>
         <div className="section-footer overflow-hidden">
-          <div className="row justify-content-between mx-0-custom">
+          <div className="justify-content-between">
             <div className="col-lg-4 col-md-4 col-sm-12">
               <img src={Clientlogo3} className="align-left logo-footer" />
             </div>
