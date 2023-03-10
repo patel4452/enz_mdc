@@ -31,7 +31,7 @@ const Sectionbreaker = () => {
               <img src={Learnmore} className="img-responsive" />
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 section-learnmore">
-              <div className="h-100 mx-auto d-flex flex-column justify-content-center p-5">
+              <div className="h-100 mx-auto d-flex flex-column justify-content-center p-3">
                 <Fade bottom>
                   <h2 className="title-bold copy-title title-primary pb-4 uppercase">
                     We're excited to welcome students back!

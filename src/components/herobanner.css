@@ -284,4 +284,7 @@ footer .section-footer {
     text-align: center;
     margin-top: 2rem;
   }
+  .section-learnmore {
+    padding: 0 1rem;
+  }
 }
