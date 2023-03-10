@@ -31,7 +31,7 @@ function Videosectionbanner(props) {
           height="100%"
           preload="auto"
           controls
-          poster={Bannermob}
+          poster={Bannertab}
         >
           <source src={Videoone} type="video/mp4" />
           Your browser does not support HTML5 video.
@@ -44,7 +44,7 @@ function Videosectionbanner(props) {
           height="100%"
           preload="auto"
           controls
-          poster={Bannermob}
+          poster={Bannertab}
         >
           <source src={Videoone} type="video/mp4" />
           Your browser does not support HTML5 video.

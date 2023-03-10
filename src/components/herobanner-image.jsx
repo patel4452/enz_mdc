@@ -11,11 +11,13 @@ const Herobannerimage = () => {
   });
 
   const isTabletDevice = useMediaQuery({
-    query: "(min-width: 768px) and (max-width: 1023px)",
+    query:
+      "(min-width: 768px) and (orientation: landscape) and (max-width: 1023px)",
   });
 
   const isPortraitTab = useMediaQuery({
-    query: "(min-width: 768px) and (orientation: portrait)",
+    query:
+      "(min-width: 768px) and (orientation: portrait) and (max-width: 1023px)",
   });
 
   const isLaptop = useMediaQuery({
@@ -28,10 +30,10 @@ const Herobannerimage = () => {
   return (
     <>
       {isMobileDevice && (
-        <img src={MobheroBanner} alt="Snow" className="img-responsive w-100" />
+        <img src={heroBanner} alt="Snow" className="img-responsive w-100" />
       )}
       {isTabletDevice && (
-        <img src={MobheroBanner} alt="Snow" className="img-responsive w-100" />
+        <img src={heroBanner} alt="Snow" className="img-responsive w-100" />
       )}
       {isPortraitTab && (
         <img src={TabheroBanner} alt="Snow" className="img-responsive w-100" />

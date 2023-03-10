@@ -5,7 +5,7 @@ class Sectiontext extends Component {
   state = {};
   render() {
     return (
-      <div className="section section-text overflow-hidden text-left ">
+      <div className="section section-text overflow-hidden md-text-center text-left ">
         <Fade bottom>
           <h2 className="copy-title title-light pb-4">
             LIVE YOUR AMBITIONS FROM ACROSS THE GLOBE

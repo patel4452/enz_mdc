@@ -206,15 +206,37 @@ footer .section-footer {
   margin-top: 35px;
   margin-left: 50%;
 }
+@media only screen and (max-width: 1440px) {
+  .section-text {
+    padding: 3rem;
+  }
+}
 @media only screen and (max-width: 1024px) {
+  .title-light,
   .Typist {
     font-size: 1.5rem;
+  }
+  .logo-header {
+    height: 45px;
+  }
+  .copy-subtitle,
+  .copy-subtitle strong {
+    font-size: 1.2rem;
   }
   .social-overlay {
     margin-left: 20%;
   }
 }
 @media only screen and (max-width: 768px) {
+  .section {
+    height: auto;
+  }
+  .section-breaker {
+    height: 50vh;
+  }
+  .md-text-center {
+    text-align: center;
+  }
   .logo-footer {
     padding: 0;
     margin: 0 auto;
@@ -247,9 +269,9 @@ footer .section-footer {
   .section-breaker {
     height: 45vh;
   }
-  .section-text {
+  /*.section-text {
     max-width: 90%;
-  }
+  }*/
   .title-primary {
     font-size: 1.5rem;
   }
