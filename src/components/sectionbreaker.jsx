@@ -28,7 +28,7 @@ const Sectionbreaker = () => {
         <>
           <div className="section row">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0">
-              <img src={Learnmore} className="img-responsive" />
+              <img src={MobLearnmore} className="img-responsive" />
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 section-learnmore">
               <div className="h-100 mx-auto d-flex flex-column justify-content-center p-3">
@@ -76,7 +76,7 @@ const Sectionbreaker = () => {
         <>
           <div className="section row">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0">
-              <img src={Learnmore} className="img-responsive" />
+              <img src={MobLearnmore} className="img-responsive" />
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 section-learnmore">
               <div className="h-100 mx-auto d-flex flex-column justify-content-center p-5">
@@ -124,7 +124,7 @@ const Sectionbreaker = () => {
         <>
           <div className="section row vh-100">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
-              <img src={Learnmore} className="img-responsive" />
+              <img src={TabLearnmore} className="img-responsive" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 section-learnmore">
               <div className="h-100 mx-auto d-flex flex-column justify-content-center p-5">

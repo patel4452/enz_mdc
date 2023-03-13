@@ -298,4 +298,11 @@ footer .section-footer {
   .section-learnmore {
     padding: 0 1rem;
   }
+  .justify-content-between {
+    display: block;
+    max-width: 100%;
+  }
+  .logo-footer {
+    width: 120px;
+  }
 }

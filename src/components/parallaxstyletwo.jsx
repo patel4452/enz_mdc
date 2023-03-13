@@ -765,7 +765,7 @@ const Parallaxstyletwo = () => {
                   <Timeline totalProgress={progress} paused>
                     <Tween>
                       <img
-                        src={Parallax1}
+                        src={Parallax1mob}
                         style={{
                           width: "100%",
                           transition: "transform .4s ease-out",
@@ -879,7 +879,7 @@ const Parallaxstyletwo = () => {
                   <Timeline totalProgress={progress} paused>
                     <Tween>
                       <img
-                        src={Parallax2}
+                        src={Parallax2mob}
                         style={{
                           width: "100%",
                           transition: "transform .4s ease-out",
@@ -1002,7 +1002,7 @@ const Parallaxstyletwo = () => {
                   <Timeline totalProgress={progress} paused>
                     <Tween>
                       <img
-                        src={Parallax3}
+                        src={Parallax3mob}
                         style={{
                           width: "100%",
                           transition: "transform .4s ease-out",

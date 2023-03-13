@@ -36,10 +36,10 @@ const Herobannerimage = () => {
         <img src={heroBanner} alt="Snow" className="img-responsive w-100" />
       )}
       {isPortraitTab && (
-        <img src={TabheroBanner} alt="Snow" className="img-responsive w-100" />
+        <img src={heroBanner} alt="Snow" className="img-responsive w-100" />
       )}
       {isLaptop && (
-        <img src={heroBanner} alt="Snow" className="img-responsive w-100" />
+        <img src={TabheroBanner} alt="Snow" className="img-responsive w-100" />
       )}
       {isDesktop && (
         <img src={heroBanner} alt="Snow" className="img-responsive w-100" />

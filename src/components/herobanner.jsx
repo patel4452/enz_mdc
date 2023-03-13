@@ -72,10 +72,10 @@ function Herobanner() {
       <footer>
         <div className="section-footer overflow-hidden">
           <div className="justify-content-between">
-            <div className="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <img src={Clientlogo3} className="align-left logo-footer" />
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
               <div className="social-overlay">
                 <h4>Find Us here</h4>
                 <div>
