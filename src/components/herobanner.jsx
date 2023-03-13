@@ -78,7 +78,7 @@ function Herobanner() {
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
               <div className="social-overlay">
                 <h4>Find Us here</h4>
-                <div>
+                <div className="hidden-xs">
                   <span className="first-row social-row">
                     <a href="https://www.facebook.com/studywithnewzealand">
                       <img src={Facebook} className="logo" />
@@ -91,6 +91,28 @@ function Herobanner() {
                     </a>
                   </span>
                   <span className="second-row social-row">
+                    <a href="http://www.youtube.com/user/realstudentsnz">
+                      <img src={Youtube} className="logo" />
+                    </a>
+                    <a href="http://www.weibo.com/studynewzealand">
+                      <img src={Social} className="logo" />
+                    </a>
+                    <a href="">
+                      <img src={Wechat} className="logo" />
+                    </a>
+                  </span>
+                </div>
+                <div className="visible-xs">
+                  <span className="first-row social-row">
+                    <a href="https://www.facebook.com/studywithnewzealand">
+                      <img src={Facebook} className="logo" />
+                    </a>
+                    <a href="https://twitter.com/studywithnz">
+                      <img src={Twitter} className="logo" />
+                    </a>
+                    <a href="https://www.instagram.com/studywithnewzealand/">
+                      <img src={Instagram} className="logo" />
+                    </a>
                     <a href="http://www.youtube.com/user/realstudentsnz">
                       <img src={Youtube} className="logo" />
                     </a>
