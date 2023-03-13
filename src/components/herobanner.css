@@ -213,14 +213,20 @@ footer .section-footer {
   display: block;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 192dpi) {
   .title-light,
   .title-regular,
+  .title-primary,
   .Typist {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   .social-overlay {
     margin-left: 45%;
+  }
+  .child span,
+  .copy-subtitle,
+  .copy-subtitle strong {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 1440px) {
