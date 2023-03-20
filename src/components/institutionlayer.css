@@ -1,12 +1,13 @@
 .parent {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   padding: 3rem;
+  max-width: 100%;
+  width: 100%;*/
 }
 
 .child {
-  flex: 1 0 21%; /* explanation below */
-  margin: 5px;
+  margin: 2px;
   height: 100%;
   background-color: #64c2c8;
   position: relative;

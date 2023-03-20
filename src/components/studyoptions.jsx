@@ -47,8 +47,8 @@ const Studyoptions = () => {
             <p className="copy-text-light pb-3">
               New Zealand is one of the best places to live and study. Our
               unique cultural values such as kaitiakitanga ( care for the world
-              around us and future generations ) influences out education system
-              and way of life.
+              around us and future generations ) which influences our education
+              system and way of life.
             </p>
             <p className="copy-text">
               <a href="https://www.studywithnewzealand.govt.nz/en/study-options/new-ways-of-learning/study-in-nz">

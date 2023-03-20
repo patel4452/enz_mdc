@@ -60,8 +60,6 @@ function Herobanner() {
           </div>
         </div>
       </div>
-      <Videosectionbanner clickRef={ref} />
-
       <Studyoptions />
       <Parallaxstyletwo />
       <Institutionlayer />

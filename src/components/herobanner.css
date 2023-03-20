@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 .section {
-  height: 90vh;
+  height: 100%;
   position: relative;
   text-align: center;
   color: white;
@@ -213,6 +213,9 @@ footer .section-footer {
   display: block;
 }
 
+.btn-danger-custom {
+  background: "rgb(221, 85, 47)";
+}
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 192dpi) {
   .title-light,
   .title-regular,
@@ -248,6 +251,11 @@ footer .section-footer {
   }
   .social-overlay {
     margin-left: 20%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+  .section {
+    height: auto;
   }
 }
 @media only screen and (max-width: 768px) {
