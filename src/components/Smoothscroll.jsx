@@ -1,8 +1,8 @@
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
 
 import "./Smoothscroll.css";
+import "./institutionlayer.css";
+import Fade from "react-reveal/Fade";
 import Slide1 from "../assets/images/slider-1.jpg";
 import Slide2 from "../assets/images/slider-2.jpg";
 import Slide3 from "../assets/images/slider-3.jpg";
@@ -12,62 +12,67 @@ import Slide6 from "../assets/images/slider-6.jpg";
 import Slide7 from "../assets/images/slider-7.jpg";
 import Slide8 from "../assets/images/slider-8.jpg";
 
-gsap.registerPlugin(ScrollTrigger);
-
 const SmoothScroll = () => {
-  const panels = useRef([]);
-  const panelsContainer = useRef();
-
-  const createPanelsRefs = (panel, index) => {
-    panels.current[index] = panel;
-  };
-
-  useEffect(() => {
-    const totalPanels = panels.current.length;
-
-    gsap.to(panels.current, {
-      xPercent: -100 * (totalPanels - 2),
-      ease: "none",
-      scrollTrigger: {
-        trigger: panelsContainer.current,
-        pin: true,
-        scrub: 2,
-        snap: 1 / (totalPanels - 1),
-        // base vertical scrolling on how wide the container is so it feels more natural.
-        end: () => "+=" + panelsContainer.current.offsetWidth,
-      },
-    });
-  }, []);
-
   return (
-    <div className="container" ref={panelsContainer}>
-      <section className="panel" ref={(e) => createPanelsRefs(e, 1)}>
-        <span style={{ width: "320px" }}></span>
-      </section>
-      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 2)}>
-        <img src={Slide1} style={{ width: "320px" }} />
-      </section>
-      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 3)}>
-        <img src={Slide2} style={{ width: "320px" }} />
-      </section>
-      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 4)}>
-        <img src={Slide3} style={{ width: "320px" }} />
-      </section>
-      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 5)}>
-        <img src={Slide4} style={{ width: "320px" }} />
-      </section>
-      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 6)}>
-        <img src={Slide5} style={{ width: "320px" }} />
-      </section>
-      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 7)}>
-        <img src={Slide6} style={{ width: "320px" }} />
-      </section>
-      <section className="panel keep-up" ref={(e) => createPanelsRefs(e, 8)}>
-        <img src={Slide7} style={{ width: "320px" }} />
-      </section>
-      <section className="panel keep-down" ref={(e) => createPanelsRefs(e, 9)}>
-        <img src={Slide8} style={{ width: "320px" }} />
-      </section>
+    <div>
+      <div className="row parent py-5 px-5">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide1} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide2} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide3} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide4} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide5} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide6} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide7} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
+          <div className="child">
+            <Fade>
+              <img src={Slide8} className="img-responsive" />
+            </Fade>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
