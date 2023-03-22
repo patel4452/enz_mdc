@@ -25,7 +25,7 @@ a {
   font-size: 2.5rem;
 }
 .section-study-option {
-  background-color: #64c2c8;
+  background-color: #e0c7a7;
   padding: 60px 0;
   margin: 60px aut 0;
 }
@@ -40,6 +40,14 @@ a {
 .next-line {
   display: block;
   font-size: 1rem;
+}
+.custom-col {
+  display: flex;
+  flex-direction: column;
+  height: 390px;
+}
+.custom-col p:last-of-type {
+  margin-top: auto;
 }
 
 @media only screen and (max-width: 1024px) {

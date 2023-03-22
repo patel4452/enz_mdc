@@ -15,7 +15,7 @@ const Studyoptions = () => {
           <div className="img-wrapper pb-5">
             <img src={image1} className="img-responsive img-icon" />
           </div>
-          <div className="copy-text p-3 pt-0 ">
+          <div className="copy-text p-3 pt-0  custom-col">
             <h3 className="copy-text pb-3">Global Pathways</h3>
             <p className="copy-text pb-3">
               <strong>
@@ -39,7 +39,7 @@ const Studyoptions = () => {
           <div className="img-wrapper pb-5">
             <img src={image2} className="img-responsive img-icon" />
           </div>
-          <div className="copy-text p-3 pt-0">
+          <div className="copy-text p-3 pt-0 custom-col">
             <h3 className="copy-text pb-3">Study in New Zealand</h3>
             <p className="copy-text pb-3">
               <strong>Find out what it is like to study in New Zealand.</strong>
@@ -61,7 +61,7 @@ const Studyoptions = () => {
           <div className="img-wrapper pb-5">
             <img src={image3} className="img-responsive img-icon" />
           </div>
-          <div className="copy-text p-3 pt-0">
+          <div className="copy-text p-3 pt-0  custom-col">
             <h3 className="copy-text pb-3">Study Online</h3>
             <p className="copy-text pb-3">
               <strong>

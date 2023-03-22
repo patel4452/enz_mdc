@@ -15,7 +15,7 @@ const Sectionbreaker = () => {
                 className="w-50 p-2 btn btn-rounded rounded-pill"
                 style={{ background: "rgb(221, 85, 47)", color: "#fff" }}
               >
-                COURSE AVAILABLE
+                COURSES AVAILABLE
               </button>
             </a>
           </Fade>

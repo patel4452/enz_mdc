@@ -38,18 +38,18 @@ const Parallaxstyletwo = () => {
             <p>
               <img src={Check} className="img-responsive align-icon" />
               <span>
-                Start your journey right now, at a recognised provider near you
+                Start your journey right now, at a recognised provider near you.
               </span>
             </p>
             <p>
               <img src={Check} className="img-responsive align-icon" />
-              <span>Enjoy the convenience of studying locally</span>
+              <span>Enjoy the convenience of studying locally.</span>
             </p>
             <p>
               <img src={Check} className="img-responsive align-icon" />
               <span>
                 Studying closer to home means you'll save on travel and living
-                costs
+                costs.
               </span>
             </p>
             <p>
@@ -77,7 +77,7 @@ const Parallaxstyletwo = () => {
           <div className="parallax-right" style={{}}>
             <p>
               <img src={Check} className="img-responsive align-icon" />
-              <span>Enjoy the convenience of studying locally</span>
+              <span>Enjoy the convenience of studying locally.</span>
             </p>
             <p>
               <img src={Check} className="img-responsive align-icon" />

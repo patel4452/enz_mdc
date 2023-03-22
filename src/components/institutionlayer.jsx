@@ -12,7 +12,7 @@ import Institution8 from "../assets/images/institution-8.jpg";
 
 const Institutionlayer = () => {
   return (
-    <div>
+    <div className="custom-background">
       <div className="row parent py-5 px-5">
         <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6 py-3">
           <a href="https://www.studywithnewzealand.govt.nz/en/study-options/education-provider/1502efc5-bcc8-11ea-9d98-0a38361e411e?utm_source=website&utm_medium=partner&utm_campaign=afterschoolmy">

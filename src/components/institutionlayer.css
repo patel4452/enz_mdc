@@ -5,6 +5,9 @@
   max-width: 100%;
   width: 100%;*/
 }
+.custom-background {
+  background-color: #e0c7a7;
+}
 
 .child {
   margin: 2px;
