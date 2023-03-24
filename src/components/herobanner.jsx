@@ -73,7 +73,7 @@ function Herobanner() {
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <img src={Clientlogo3} className="align-left logo-footer" />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 col-xs-12">
               <div className="social-overlay">
                 <h4>Find Us here</h4>
                 <div className="hidden-xs">

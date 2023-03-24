@@ -204,7 +204,7 @@ footer .section-footer {
 }
 .social-overlay {
   margin-top: 35px;
-  margin-left: 40%;
+  margin-left: auto;
 }
 .visible-xs {
   display: none;
@@ -223,9 +223,9 @@ footer .section-footer {
   .Typist {
     font-size: 1.5rem !important;
   }
-  .social-overlay {
+  /*.social-overlay {
     margin-left: 30%;
-  }
+  }*/
   .child span,
   .copy-subtitle,
   .copy-subtitle strong {
@@ -249,9 +249,9 @@ footer .section-footer {
   .copy-subtitle strong {
     font-size: 1.2rem;
   }
-  .social-overlay {
+  /*.social-overlay {
     margin-left: 10%;
-  }
+  }*/
 }
 @media only screen and (min-width: 769px) and (max-width: 990px) {
   .section {
