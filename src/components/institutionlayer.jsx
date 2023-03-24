@@ -89,7 +89,7 @@ const Institutionlayer = () => {
             <div className="child">
               <Fade>
                 <img src={Institution8} className="img-responsive" />
-                <span>University of Waikato</span>
+                <span>The University of Waikato</span>
               </Fade>
             </div>
           </a>

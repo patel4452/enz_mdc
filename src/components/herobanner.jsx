@@ -73,7 +73,7 @@ function Herobanner() {
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <img src={Clientlogo3} className="align-left logo-footer" />
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12">
               <div className="social-overlay">
                 <h4>Find Us here</h4>
                 <div className="hidden-xs">
@@ -87,16 +87,8 @@ function Herobanner() {
                     <a href="https://www.instagram.com/studywithnewzealand/">
                       <img src={Instagram} className="logo" />
                     </a>
-                  </span>
-                  <span className="second-row social-row">
                     <a href="http://www.youtube.com/user/realstudentsnz">
                       <img src={Youtube} className="logo" />
-                    </a>
-                    <a href="http://www.weibo.com/studynewzealand">
-                      <img src={Social} className="logo" />
-                    </a>
-                    <a href="">
-                      <img src={Wechat} className="logo" />
                     </a>
                   </span>
                 </div>
@@ -113,12 +105,6 @@ function Herobanner() {
                     </a>
                     <a href="http://www.youtube.com/user/realstudentsnz">
                       <img src={Youtube} className="logo" />
-                    </a>
-                    <a href="http://www.weibo.com/studynewzealand">
-                      <img src={Social} className="logo" />
-                    </a>
-                    <a href="">
-                      <img src={Wechat} className="logo" />
                     </a>
                   </span>
                 </div>
