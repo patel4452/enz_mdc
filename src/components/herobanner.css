@@ -222,15 +222,15 @@ footer .section-footer {
 .Typist {
   font-size: 1.5rem !important;
 }
+.child span,
+.copy-subtitle,
+.copy-subtitle strong {
+  font-size: 1.2rem;
+}
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 192dpi) {
   /*.social-overlay {
     margin-left: 30%;
   }*/
-  .child span,
-  .copy-subtitle,
-  .copy-subtitle strong {
-    font-size: 1.2rem;
-  }
 }
 @media only screen and (max-width: 1440px) {
   .section-text {
