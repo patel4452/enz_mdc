@@ -21,11 +21,15 @@ const Parallaxstyletwo = () => {
       <div className="row" style={{ background: "rgb(7, 25, 55)" }}>
         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0">
           <picture>
+            <source
+              media="(min-width: 1024px) and (max-width: 1449px)"
+              srcSet={Parallax1tab}
+            />
             <source media="(max-width: 425px)" srcSet={Parallax1mob} />
             <img src={Parallax1} alt="Flowers" style={{ width: "100%" }} />
           </picture>
         </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-5 mx-auto d-flex flex-column justify-content-center">
+        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-4 mx-auto d-flex flex-column justify-content-center">
           <h2
             className="copy-title title-regular text-left pt-5 pb-4 "
             style={{}}
@@ -65,12 +69,16 @@ const Parallaxstyletwo = () => {
       <div className="row" style={{ background: "rgb(221, 85, 47)" }}>
         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0">
           <picture>
+            <source
+              media="(min-width: 1024px) and (max-width: 1449px)"
+              srcSet={Parallax2tab}
+            />
             <source media="(max-width: 425px)" srcSet={Parallax2mob} />
             <img src={Parallax2} alt="Flowers" style={{ width: "100%" }} />
           </picture>
         </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-5 mx-auto d-flex flex-column justify-content-center">
-          <h2 className="copy-title title-regular text-left pt-5 pb-4 ">
+        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-4 mx-auto d-flex flex-column justify-content-center">
+          <h2 className="copy-title title-regular text-left pt-4 pb-4 ">
             Top Reasons to Study in New Zealand
           </h2>
 
@@ -114,13 +122,17 @@ const Parallaxstyletwo = () => {
         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0">
           <Tween>
             <picture>
+              <source
+                media="(min-width: 1024px) and (max-width: 1449px)"
+                srcSet={Parallax3tab}
+              />
               <source media="(max-width: 425px)" srcSet={Parallax3mob} />
               <img src={Parallax3} alt="Flowers" style={{ width: "100%" }} />
             </picture>
           </Tween>
         </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-5 mx-auto d-flex flex-column justify-content-center">
-          <h2 className="copy-title title-regular text-left pt-5 pb-4 ">
+        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-4 mx-auto d-flex flex-column justify-content-center">
+          <h2 className="copy-title title-regular text-left pt-4 pb-4 ">
             Begin Your New Zealand Education Online Now
           </h2>
 

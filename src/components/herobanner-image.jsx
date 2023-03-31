@@ -9,7 +9,7 @@ const Herobannerimage = () => {
     <>
       <picture>
         <source
-          media="(min-width: 1024px) and (max-width: 1199px)"
+          media="(min-width: 1024px) and (max-width: 1449px)"
           srcSet={TabheroBanner}
         />
         <img src={heroBanner} alt="Flowers" style={{ width: "100%" }} />

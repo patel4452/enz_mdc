@@ -234,7 +234,21 @@ footer .section-footer {
 }
 @media only screen and (max-width: 1440px) {
   .section-text {
-    padding: 3rem;
+    padding: 2rem;
+  }
+  .copy-subtitle,
+  .copy-subtitle strong {
+    font-size: 1.2rem;
+  }
+  .title-light,
+  .title-regular,
+  .title-primary,
+  .Typist {
+    font-size: 1.2rem !important;
+  }
+  .title-light,
+  .Typist {
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -248,6 +262,12 @@ footer .section-footer {
   .copy-subtitle,
   .copy-subtitle strong {
     font-size: 1.2rem;
+  }
+  .title-light,
+  .title-regular,
+  .title-primary,
+  .Typist {
+    font-size: 1.2rem !important;
   }
   /*.social-overlay {
     margin-left: 10%;
