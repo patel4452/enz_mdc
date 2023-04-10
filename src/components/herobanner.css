@@ -107,7 +107,7 @@ nav {
   width: auto;
 }
 .logo-header {
-  height: 70px;
+  height: 110px;
   width: auto;
 }
 .logo-footer {
@@ -257,7 +257,7 @@ footer .section-footer {
     font-size: 1.5rem;
   }
   .logo-header {
-    height: 45px;
+    height: 70px;
   }
   .copy-subtitle,
   .copy-subtitle strong {
